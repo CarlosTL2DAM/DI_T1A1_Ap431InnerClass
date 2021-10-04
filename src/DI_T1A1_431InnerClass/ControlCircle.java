@@ -1,3 +1,5 @@
+package DI_T1A1_431InnerClass;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -40,6 +42,7 @@ public class ControlCircle extends Application {
         Button btnDisminuir = new Button("Shrink");
         btnDisminuir.setLayoutX(100);
         btnDisminuir.setLayoutY(250);
+        
         //Añadimos el botón
         root.getChildren().add(btnDisminuir);
         
